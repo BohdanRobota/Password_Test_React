@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './PasswordTest.css';
 import { Input, Container, Box, Text } from '@chakra-ui/react';
-import { complexityEnum, colorsEnum } from './enum/passwordTest.enum';
+import { complexityEnum, colorsEnum } from '../../enum/passwordTest.enum';
 
 function PasswordTest() {
   const [password, setPassword] = useState('');

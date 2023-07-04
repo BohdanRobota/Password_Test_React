@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import PasswordTest from './components/PasswordTest';
+import PasswordTest from './components/PasswordTest/PasswordTest';
 
 function App() {
   return (
